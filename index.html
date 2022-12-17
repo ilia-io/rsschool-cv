@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CV</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="assets/favicon.ico" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="#profile" class="nav-link">Profile</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contacts" class="nav-link">Contacts</a>
+            </li>
+            <li class="nav-item">
+              <a href="#summary" class="nav-link">Summary</a>
+            </li>
+            <li class="nav-item">
+              <a href="#skills" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="#code" class="nav-link">Code</a>
+            </li>
+            <li class="nav-item">
+              <a href="#projects" class="nav-link">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a href="#education" class="nav-link">Education</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main class="main main-container">
+      <div class="container">
+        <section class="section" id="profile">
+          <img
+            class="avatar"
+            width="100"
+            src="https://avatars.githubusercontent.com/u/96729276?v=4"
+            alt="avatar"
+          />
+          <h1 class="section-title">Ilia Karpov</h1>
+          <p class="section-content">Frontend developer</p>
+        </section>
+        <section class="section" id="contacts">
+          <h2 class="section-title">Contacts</h2>
+          <ul class="section-content nav-list">
+            <li class="section-item">
+              Discord:
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://discordapp.com/users/764105961597698078"
+                >dop#5308</a
+              >
+            </li>
+            <li class="section-item">
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/ilia-io"
+              >
+                Github</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="summary">
+          <h2 class="section-title">Summary</h2>
+          <p class="section-content">
+            I have a good knowledge of JavaScript, HTML, CSS, adaptive layout. I
+            have experience in app development with React using Redux Toolkit,
+            REST API, basic TypeScript.
+          </p>
+        </section>
+        <section class="section" id="skills">
+          <h2 class="section-title">Skills</h2>
+          <ul class="section-content nav-list">
+            <li class="section-item">HTML</li>
+            <li class="section-item">CSS</li>
+            <li class="section-item">React</li>
+          </ul>
+        </section>
+        <section class="section" id="code">
+          <h2 class="section-title">Code Example</h2>
+          <pre class="section-content"><code>function isTriangle(a,b,c)
+{
+  if (a + b > c && b + c > a && a + c > b) {return true}
+  else {return false};
+}</code></pre>
+        </section>
+        <section class="section" id="projects">
+          <h2 class="section-title">Projects</h2>
+          <ul class="section-content nav-list">
+            <li class="section-item">
+              📝 Simple Todo-list (TypeScript, React, Tests)
+              <br />
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/ilia-io/todo-list-with-testing"
+                >Github repo</a
+              >
+            </li>
+            <li class="section-item">
+              🍕 Pizza delivery app (TypeScript, React, Redux, Mock API)
+              <br />
+              <a
+                target="_blank"
+                class="nav-link"
+                href="https://github.com/ilia-io/pizza"
+              >
+                Github repo</a
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="section" id="education">
+          <h2 class="section-title">Education</h2>
+          <p class="section-content">
+            Course: Frontend Core and JavaScript for Beginners at JetBrains
+            Academy
+          </p>
+          <p class="section-content">English level: Intermediate (B1)</p>
+        </section>
+      </div>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <ul class="nav-list">
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              target="_blank"
+              href="https://github.com/ilia-io"
+              ><img width="30" src="assets/github.svg" alt="github icon"
+            /></a>
+          </li>
+          <li class="nav-item">2022</li>
+          <li class="nav-item">
+            <a class="nav-link" target="_blank" href="https://rs.school/js/"
+              ><img
+                width="60"
+                src="https://rs.school/images/rs_school_js.svg"
+                alt="rs_school logo"
+            /></a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
